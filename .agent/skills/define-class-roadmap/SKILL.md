@@ -78,7 +78,7 @@ Com os dados em mãos, execute a distribuição de tempo:
 Após a confirmação da grade pelo usuário:
 
 1. Crie a pasta `classes/<course-slug>/` e a subpasta `classes/<course-slug>/lessons/`.
-2. Carregue o modelo canônico de [templates/class-roadmap-template.md](file:///home/julio/Documentos/gercom_basic_of_federated_learning/templates/class-roadmap-template.md).
+2. Carregue o modelo canônico de [templates/class-roadmap-template.md](file:///home/julio/Documentos/gercom_basic-of-federated-learning/templates/class-roadmap-template.md).
 3. Preencha todos os campos do template:
    - Slug, Carga horária total, formato de aulas e quantidade de aulas.
    - Tabela de subjects integrados com a carga horária alocada a cada um.

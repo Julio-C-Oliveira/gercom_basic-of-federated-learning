@@ -62,7 +62,7 @@ Você **DEVE** considerar o input do usuário (se fornecido). O input pode ser:
    - `Fase` (ex.: `01. Fundamentos Teóricos & Arquitetura`, `02. Frameworks, Setup & Ferramental`)
    - `Nome do Tópico`
 2. Gere um slug para o tópico (ex.: `01-fundamentos-teoricos-fl`, `02-setup-flower-pytorch`).
-3. Carregue a estrutura de [templates/plan-template.md](file:///home/julio/Documentos/gercom_basic_of_federated_learning/templates/plan-template.md) e preencha com alta especificidade técnica:
+3. Carregue a estrutura de [templates/plan-template.md](file:///home/julio/Documentos/gercom_basic-of-federated-learning/templates/plan-template.md) e preencha com alta especificidade técnica:
    - **Objetivo da Investigação**: Metas conceituais e práticas claras.
    - **4 a 6 Perguntas-Chave**: Questões profundas adaptadas ao tema (mecanismo conceitual/matemático, bibliotecas e configuração, fluxo de implementação, desafios/heterogeneidade e métricas de avaliação).
    - **Bibliotecas & Ferramental**: Lista de pacotes, frameworks e dependências (ex.: PyTorch, Flower, NumPy, SciPy, Scikit-learn, etc.).

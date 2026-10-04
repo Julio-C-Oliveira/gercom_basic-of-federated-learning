@@ -55,7 +55,7 @@ Você **DEVE** considerar o input do usuário (se fornecido). Pode ser:
 
 ### 3. Condução da Pesquisa Técnica em Profundidade
 
-Responda exaustivamente aos requisitos do plano estruturando o conteúdo conforme o [templates/research-template.md](file:///home/julio/Documentos/gercom_basic_of_federated_learning/templates/research-template.md):
+Responda exaustivamente aos requisitos do plano estruturando o conteúdo conforme o [templates/research-template.md](file:///home/julio/Documentos/gercom_basic-of-federated-learning/templates/research-template.md):
 
 1. **Visão Geral & Teoria**:
    - Detalhe os fundamentos matemáticos, arquitetura e funcionamento interno do algoritmo ou conceito.

@@ -80,7 +80,7 @@ Antes de redigir a aula, apresente ao usuário um resumo executivo com a seguint
 
 ### 3. Redação da Aula Completa em Markdown
 
-Carregue [templates/class-lesson-template.md](file:///home/julio/Documentos/gercom_basic_of_federated_learning/templates/class-lesson-template.md) e elabore a aula completa aplicando rigorosamente os seguintes princípios:
+Carregue [templates/class-lesson-template.md](file:///home/julio/Documentos/gercom_basic-of-federated-learning/templates/class-lesson-template.md) e elabore a aula completa aplicando rigorosamente os seguintes princípios:
 
 1. **Abertura (Promessa Clara)**:
    - Inicie diretamente com o bloco `> [!IMPORTANT]` contendo o que o aluno saberá fazer ao final da sessão. Sem piadas de quebra de gelo ou conversas vazias.

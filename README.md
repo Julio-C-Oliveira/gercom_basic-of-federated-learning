@@ -88,7 +88,7 @@ flowchart TD
 ## 📁 Estrutura de Diretórios do Projeto
 
 ```text
-gercom_basic_of_federated_learning/
+gercom_basic-of-federated-learning/
 ├── .agent/                           # Inteligência e estado do agente
 │   ├── context.json                  # Subject ativo em pesquisa
 │   ├── class-context.json            # Disciplina ativa em elaboração
@@ -124,7 +124,7 @@ gercom_basic_of_federated_learning/
 
 | Assunto | Domínio | Linha de Pesquisa | Status |
 | :--- | :--- | :--- | :---: |
-| *(Nenhum assunto iniciado ainda. Use `/define-subject` para começar)* | - | - | - |
+| [Aprendizado Federado](subjects/aprendizado-federado/roadmap.md) | Aprendizado Federado / ML Distribuído | PyTorch, Flower & NVFlare | [ ] Em Progresso |
 
 ---
 

@@ -68,7 +68,7 @@ Crie a estrutura de diretórios necessária para o assunto:
 
 ### 3. Elaboração do `roadmap.md` (Definição Dinâmica e Flexível de Tópicos)
 
-Carregue a estrutura de [templates/roadmap-template.md](file:///home/julio/Documentos/gercom_basic_of_federated_learning/templates/roadmap-template.md).
+Carregue a estrutura de [templates/roadmap-template.md](file:///home/julio/Documentos/gercom_basic-of-federated-learning/templates/roadmap-template.md).
 
 **A quantidade de tópicos é flexível e adaptativa (NÃO há limite fixo de 5 tópicos)**:
 - Analise a profundidade técnica, abrangência e complexidade do assunto em questão.
