@@ -39,9 +39,9 @@ O estudo é estruturado em etapas integradas:
 
 | ID | Fase / Eixo Temático | Tópico | Status | Plano Investigativo | Documentação de Pesquisa |
 | :--- | :--- | :--- | :---: | :--- | :--- |
-| **T01** | 01. Nivelamento PyTorch | **Fundamentos de Redes Neurais e Autograd no PyTorch**<br>Tensores, dispositivos (CPU/CUDA), grafos computacionais dinâmicos, forward pass, cálculo de gradientes e retropropagação (`loss.backward()`). | [ ] | [Plano](plans/01-fundamentos-redes-neurais-autograd-pytorch-plan.md) | - |
-| **T02** | 01. Nivelamento PyTorch | **Anatomia de Camadas, Ativações e Funções de Perda**<br>Camadas Lineares (`nn.Linear`), Convolucionais (`nn.Conv2d`), Normalizações (`BatchNorm`, `LayerNorm`, `GroupNorm` e impacto em FL); Funções de ativação (ReLU, GELU, Sigmoid, Softmax); Critérios de perda (`CrossEntropyLoss`, `MSELoss`). | [ ] | - | - |
-| **T03** | 01. Nivelamento PyTorch | **Pipeline Completo de Treinamento e Otimização com PyTorch**<br>Estruturação com `nn.Module`, manipulação de dados via `Dataset` e `DataLoader`, otimizadores (`SGD`, `Adam`), decaimento de aprendizado e o ciclo canônico de treinamento/avaliação. | [ ] | - | - |
+| **T01** | 01. Nivelamento PyTorch | **Fundamentos de Redes Neurais e Autograd no PyTorch**<br>Tensores, dispositivos (CPU/CUDA), grafos computacionais dinâmicos, forward pass, cálculo de gradientes e retropropagação (`loss.backward()`). | [x] | [Plano](plans/01-fundamentos-redes-neurais-autograd-pytorch-plan.md) | [Pesquisa](research/01-fundamentos-redes-neurais-autograd-pytorch.md) |
+| **T02** | 01. Nivelamento PyTorch | **Anatomia de Camadas, Ativações e Funções de Perda**<br>Camadas Lineares (`nn.Linear`), Convolucionais (`nn.Conv2d`), Normalizações (`BatchNorm`, `LayerNorm`, `GroupNorm` e impacto em FL); Funções de ativação (ReLU, GELU, Sigmoid, Softmax); Critérios de perda (`CrossEntropyLoss`, `MSELoss`). | [x] | [Plano](plans/02-anatomia-camadas-ativacoes-funcoes-perda-plan.md) | [Pesquisa](research/02-anatomia-camadas-ativacoes-funcoes-perda.md) |
+| **T03** | 01. Nivelamento PyTorch | **Pipeline Completo de Treinamento e Otimização com PyTorch**<br>Estruturação com `nn.Module`, manipulação de dados via `Dataset` e `DataLoader`, otimizadores (`SGD`, `Adam`), decaimento de aprendizado e o ciclo canônico de treinamento/avaliação. | [x] | [Plano](plans/03-pipeline-treinamento-otimizacao-pytorch-plan.md) | [Pesquisa](research/03-pipeline-treinamento-otimizacao-pytorch.md) |
 | **T04** | 02. Fundamentos de FL | **O Paradigma do Aprendizado Federado e Arquitetura Distribuída**<br>Motivação, privacidade e soberania de dados; Topologia Servidor-Clientes vs Descentralizada; Ciclo de rodadas federadas (Broadcast, Local Training, Upload de Pesos/Gradientes, Agregação). | [ ] | - | - |
 | **T05** | 02. Fundamentos de FL | **O Algoritmo Canônico Federated Averaging (FedAvg)**<br>Formulação matemática e derivação do FedAvg (McMahan et al.); Média ponderada por tamanho de amostra local ($n_k$); Impacto das épocas locais ($E$), batch size ($B$) e taxa de amostragem de clientes ($C$). | [ ] | - | - |
 | **T06** | 02. Fundamentos de FL | **Heterogeneidade Estatística (Dados Não-IID) e Mitigações**<br>Tipos de não-IID (skew de classes, skew de atributos, concept drift); O problema do *Client Drift*; Particionamento sintético via Distribuição Dirichlet ($\alpha$); Algoritmos avançados de mitigação (FedProx com termo proximal e SCAFFOLD com variáveis de controle). | [ ] | - | - |
@@ -58,15 +58,15 @@ O estudo é estruturado em etapas integradas:
 ## 3. Métricas de Progresso
 
 - **Total de Tópicos**: 13
-- **Concluídos**: 0
-- **Pendentes**: 13
-- **Progresso**: 0%
+- **Concluídos**: 3
+- **Pendentes**: 10
+- **Progresso**: 23.1%
 
 ---
 
 ## 4. Ambientes Práticos, Datasets & Recursos Recomendados
 
-- [ ] **Documentação PyTorch**: [pytorch.org/docs](https://pytorch.org/docs/stable/index.html) - Tutoriais de autograd, `torch.nn` e rotinas de treino.
+- [x] **Documentação PyTorch**: [pytorch.org/docs](https://pytorch.org/docs/stable/index.html) - Tutoriais de autograd, `torch.nn` e rotinas de treino.
 - [ ] **Documentação Oficial do Flower**: [flower.ai/docs](https://flower.ai/docs/) - Guias da arquitetura Flower Next e customização de estratégias (`Strategy`).
 - [ ] **Documentação Oficial do NVIDIA NVFlare**: [nvflare.readthedocs.io](https://nvflare.readthedocs.io/) - Guia de programação de controladores, agregadores customizados e filtros.
 - [ ] **Paper Base FedAvg**: McMahan et al., *"Communication-Efficient Learning of Deep Networks from Decentralized Data"*, AISTATS 2017.
@@ -83,3 +83,9 @@ O estudo é estruturado em etapas integradas:
 
 - **2026-10-04**: Inicialização do subject `aprendizado-federado` via `/define-subject`.
 - **2026-10-04**: Inclusão do tópico dedicado **T11 (Customização Avançada: Agregação, Seleção de Clientes e Hooks Customizados)** para cobrir extensibilidade e modificação de funções nativas no Flower e NVFlare, totalizando 13 tópicos no roadmap.
+- **2026-10-04**: Elaboração do plano investigativo detalhado para o tópico **T01 (Fundamentos de Redes Neurais e Autograd no PyTorch)** via `/define-research-topic`.
+- **2026-10-04**: Tópico **T01 (Fundamentos de Redes Neurais e Autograd no PyTorch)** concluído via `/do-research`.
+- **2026-10-04**: Elaboração do plano investigativo detalhado para o tópico **T02 (Anatomia de Camadas, Ativações e Funções de Perda)** via `/define-research-topic`.
+- **2026-10-04**: Tópico **T02 (Anatomia de Camadas, Ativações e Funções de Perda)** concluído via `/do-research`.
+- **2026-10-04**: Elaboração do plano investigativo detalhado para o tópico **T03 (Pipeline Completo de Treinamento e Otimização com PyTorch)** via `/define-research-topic`.
+- **2026-10-04**: Tópico **T03 (Pipeline Completo de Treinamento e Otimização com PyTorch)** concluído via `/do-research`.
